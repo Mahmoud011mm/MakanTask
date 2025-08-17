@@ -1,0 +1,264 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.navbr{
+    
+    background-color: #E5E2F7;
+
+    
+}
+
+.hero-section {
+    background: url('./imgs/img1.png') no-repeat center center;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero-section {
+    padding: 50px 0;
+    
+}
+.hero-section h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+.hero-section p {
+    font-size: 1rem;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.7;
+}
+
+
+
+
+.btn-outline-purple {
+    border: 1px solid #6c5ce7;
+    color: #6c5ce7;
+}
+.btn-outline-purple:hover {
+    background-color: #6c5ce7;
+    color: #fff;
+}
+.hero-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.navbar-custom {
+    background-color: #f2f2f2;
+}
+.navbar-custom .nav-link {
+    color: #333 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar-custom .btn {
+    border-radius: 20px;
+}
+
+/* section2 */
+
+.section-title {
+    color: #6c63ff;
+    font-size: 14px;
+}
+.card-custom {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+.card-custom:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #f0e9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    font-size: 28px;
+    color: #6c63ff;
+}
+.partners img {
+    max-height: 40px;
+    margin: 15px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.partners img:hover {
+    opacity: 1;
+}
+
+/* section3 */
+
+
+
+.donation-section {
+    background-color: #f0ecfc;
+    padding: 60px 0;
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.progress {
+    height: 8px;
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.col-md-6.col-lg-5 {
+    max-width: 48% !important; 
+}
+
+.btn-donate {
+    background-color: #6f42c1;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+.btn-donate:hover {
+    background-color: #5a32a3;
+}
+
+/* section 4 */
+
+
+.impact-section {
+    background: #fafbff;
+}
+.impact-icon img {
+    filter: grayscale(0.2) drop-shadow(0 2px 6px #e0e0ff);
+}
+.text-purple {
+    color: #7c6ee6 !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #7c6ee6;
+    background-color: #f3f2fd;
+}
+.accordion-item {
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 2px 8px #e9eafc;
+}
+.accordion-button {
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.accordion-body {
+    background: #fff;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* section 5 */
+.latest-updates-section {
+    background: #eceafd;
+}
+
+.card {
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* section6 */
+
+.contact-box {
+    background: #f3f0ff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+.contact-box input, 
+.contact-box textarea {
+    border-radius: 10px;
+    border: 1px solid #d1c4f7;
+}
+.btn-custom {
+    background: #8a75f0;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.btn-custom:hover {
+    background: #6f5cc4;
+}
+.contact-info i {
+    font-size: 20px;
+    color: #8a75f0;
+    margin-left: 10px;
+}
+
+/* section7 */
+.foot {
+    bachground-color: #E5E2F7;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 50px 0;
+}
+.foot h2 {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+.foot p {
+    color: #555;
+}
+.foot img.leg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 300px;
+    opacity: 0.8;
+}
+
+.footer {
+    background: #111233;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
+.footer-logo {
+    max-width: 120px;
+}
+
+

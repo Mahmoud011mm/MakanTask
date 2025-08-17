@@ -1,0 +1,126 @@
+/* section1 */
+body {
+  font-family: 'Tajawal', sans-serif;
+  color: white;
+}
+
+.navbar{
+  background-color: #0e0e2c;
+}
+
+.sec1 {
+  background-color: #0e0e2c;
+
+}
+
+.robot-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 70%;
+  right: 4%;
+  transform: translate(50%, -50%);
+  width: 100px;
+}
+
+.personal-section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  background-color: #2f3556;
+}
+
+.care-image {
+  flex: 1 1 50%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.care-text {
+  flex: 1 1 50%;
+  background-color: #2f3556;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* section 2 */
+
+.sec2{
+    background-color: #ffffff;
+    color: #1e1e2d;
+    line-height: 1.8;
+}
+
+.text-highlight {
+    color: #7d56f3; /* Light violet */
+}
+
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* section3 */
+
+
+.psych-support-section {
+  background-color: #eee8f9; /* Light purple background */
+    color: #222;
+}
+
+.text-primary {
+  color: #7d56f3 !important; /* Purple highlight */
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.play-button-overlay img {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* section4  */
+
+.cta-section {
+    background-color: #eee8f9; 
+    color: #1a1a1a;
+}
+
+.text-primary {
+    color: #7d56f3 !important; 
+}
+
+.footer {
+    background: #111233;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
+.footer-logo {
+    max-width: 120px;
+}
+
+
+
