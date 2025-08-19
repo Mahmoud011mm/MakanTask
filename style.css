@@ -1,13 +1,39 @@
 body {
     font-family: 'Tahoma', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
-.navbr{
+.navbar-custom {
+    background-color: #E5E2F7 !important;
+}
+
+.button {
+    background-color: #8c7ae6;
+    border: 1px solid #8c7ae6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn2{
+    background-color: #6c5ce7;
+    border: 1px solid #6c5ce7;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
     
+}
+.btn2 a{
+    text-align: center;
+   
+}
+
+.navsec1 {
     background-color: #E5E2F7;
-
-    
 }
+
 
 .hero-section {
     background: url('./imgs/img1.png') no-repeat center center;
@@ -36,9 +62,6 @@ body {
     line-height: 1.7;
 }
 
-
-
-
 .btn-outline-purple {
     border: 1px solid #6c5ce7;
     color: #6c5ce7;
@@ -51,6 +74,14 @@ body {
     max-width: 100%;
     border-radius: 10px;
 }
+
+.container .btnimg{
+    width: 12%;
+    position: absolute;
+    bottom: 8px;
+    left: 70px
+}
+
 .navbar-custom {
     background-color: #f2f2f2;
 }
@@ -62,6 +93,8 @@ body {
 .navbar-custom .btn {
     border-radius: 20px;
 }
+
+
 
 /* section2 */
 
@@ -221,7 +254,7 @@ body {
 
 /* section7 */
 .foot {
-    bachground-color: #E5E2F7;
+    bachground-color: #cec7f1ff;
     min-height: 90vh;
     display: flex;
     align-items: center;

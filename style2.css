@@ -3,6 +3,26 @@ body {
   font-family: 'Tajawal', sans-serif;
   color: white;
 }
+.button {
+    background-color: #8c7ae6;
+    border: 1px solid #8c7ae6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn2{
+    background-color: #6c5ce7;
+    border: 1px solid #6c5ce7;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.btn2 a{
+    text-align: center;
+   
+}
 
 .navbar{
   background-color: #0e0e2c;
