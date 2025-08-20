@@ -1,8 +1,11 @@
 /* section1 */
 body {
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Amiri', serif;
   color: white;
+  overflow-x: hidden ;
+
 }
+
 
 .font-style{
   font-family:"Amiri";
@@ -101,6 +104,20 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+  .logo {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 50px;
+    height: 40px;
+  }
+}
+
 
 /* section 2 */
 
@@ -123,6 +140,8 @@ img {
     object-fit: cover;
     border-radius: 10px;
 }
+
+
 
 /* section3 */
 

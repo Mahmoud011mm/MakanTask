@@ -97,6 +97,32 @@ body {
     border-radius: 20px;
 }
 
+@media (max-width: 768px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .btnimg {
+        width: 30%;
+        position: absolute;
+        bottom: 50px;
+        left: 1px;
+    }
+    
+}
+@media (max-width: 992px) {
+  .logo {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 50px;
+    height: 40px;
+  }
+}
+
 
 
 /* section2 */
@@ -236,8 +262,9 @@ body {
 }
 
 @media (max-width: 768px) {
-    .btn-res {
-       margin-right: 80px
+    .butn-res {
+       align-items: center;
+        text-align: center;
     }
 }
 
@@ -278,6 +305,13 @@ body {
     .contact-section textarea {
         font-size: 0.9rem;
     }
+
+}
+
+@media (min-width: 768px) {
+  .contact-box {
+    
+  }
 }
 
 /* section7 */
@@ -330,6 +364,18 @@ body {
   .logo{
     width: 60px;
     height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .foot {
+    min-height: 36vh;   
+    padding: 20px 10px; 
+  }
+
+  .foot img.leg {
+    max-width: 200px;   
+    opacity: 0.6;
   }
 }
 

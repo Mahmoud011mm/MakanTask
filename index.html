@@ -15,14 +15,19 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-custom p-0 ">
-        <div class="container">
+        <div class="container ">
+            
+            <a class="navbar-brand d-lg-none d-lg-block" href="#">
+                <img src="./imgs/image999.png" class="logo" alt="logo">
+            </a>
+
             <button class="navbar-toggler mt-2 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse justify-content-around bg-white   p-2  text-dark rounded-bottom"  id="navbarSupportedContent">
 
                 <ul class="navbar-nav">
-                    <img src="./imgs/image999.png" class="logo" alt="logo">
+                    <img src="./imgs/image999.png" class="logo d-none d-lg-block" alt="logo">
                     <li class="nav-item"><a class="nav-link" href="./index2.html">عن بثور</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">البرامج</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">العنايه بالاطراف الصناعيه</a></li>
@@ -297,11 +302,11 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                            data-bs-toggle="collapse" data-bs-target="#collapsethree">
                                             2- هل يمكنني التطوع بوقت أو خبرة؟
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                    <div id="collapsehree" class="accordion-collapse collapse"
                                         data-bs-parent="#impactAccordion">
                                         <div class="accordion-body">
                                             نعم، نحن نرحب بجميع أنواع التطوع ونوفر فرصًا متنوعة للمشاركة في برامجنا.
@@ -344,13 +349,13 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" class="headingFive">
+                                    <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                            data-bs-toggle="collapse" data-bs-target="#collapseone">
                                             5- ما هي الخدمات التي تقدمها لمبتوري الأطراف؟
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                    <div id="collapseone" class="accordion-collapse collapse"
                                         data-bs-parent="#impactAccordion">
                                         <div class="accordion-body">
                                             دعم مالي، توفير العلاج، جلسات استشارية، وتوفير المعدات الطبية اللازمة.
@@ -360,16 +365,15 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" class="headingFive">
+                                    <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                                            5- ما هي الخدمات التي تقدمها لمبتوري الأطراف؟
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                                6- كيف يمكنني التبرع؟
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        data-bs-parent="#impactAccordion">
+                                    <div id="collapseTwo" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            دعم مالي، توفير العلاج، جلسات استشارية، وتوفير المعدات الطبية اللازمة.
+                                            يمكنك التبرع من خلال الموقع الإلكتروني أو عبر التحويل البنكي.
                                         </div>
                                     </div>
                                 </div>
@@ -385,7 +389,7 @@
     <!--section5-->
 
     <section class="latest-updates-section py-5" style="background:#eceafd;">
-        <div class="container">
+        <div class="container overflow-hidden">
             <div class="row align-items-center mb-4">
                 <div class="col-md-6 text-md-end text-center">
                     <span class="text-purple d-block mb-3">بناء التواصل من خلال أعمال اللطف</span>
@@ -395,9 +399,9 @@
                     </h2>
                 </div>
 
-                <div class="col-md-4 mb-3  ms-20 text-left  btn-res">
+                <div class="col-md-4 mb-3 butn-res mx-auto text-left ">
 
-                    <button class="button btn-res mb-3">عرض جميع المقالات</button>
+                    <button class="button  mb-3">عرض جميع المقالات</button>
                 </div>
 
             </div>
@@ -449,13 +453,13 @@
     </section>
 
     <!--Section 6-->
-    <section class=" py-5 contact-section">
+    <section class=" py-5 container  contact-section">
         <div class="text-center mb-5">
             <a href="#" class="text-primary text-decoration-none">اتصل بنا</a>
             <h3 class="fw-bold mt-2">نحن نقدم المساعدة والمساعدة <br> المخصصة لمبتوري الاطراف</h3>
         </div>
 
-        <div class="row justify-content-center align-items-start">
+        <div class="row justify-content-center align-items-start  overflow-hiden">
 
             <div class="col-md-6 mt-4 mt-md-0">
                 <div class="contact-info">
@@ -470,7 +474,7 @@
                 </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="contact-box">
                     <h5 class="fw-bold mb-3">هل لديك سؤال أو تعليق؟</h5>
                     <p class="text-muted small">تواصل معنا من خلال النموذج ادناه وسنرد بأقرب وقت ممكن</p>
@@ -494,7 +498,7 @@
     </section>
 
     <!--section 7-->
-    <section class="foot   " style="background-color:#E5E2F7;">
+    <section class="foot " style="background-color:#E5E2F7;">
         <div class="column ">
             <div class="col-md-8">
                 <p class="text-burble">امنح حياة صحية جديدة إلى مبتوري الأطراف</p>
@@ -504,7 +508,7 @@
                 <a href="#" class="button px-8 w-75">تبرع الآن</a>
             </div>
         </div>
-        <img src="./imgs/image 12 (1).png" alt="prosthetic leg" class="leg">
+        <img src="./imgs/image 12 (1).png" alt="prosthetic leg" class="leg p-0">
     </section>
 
     <!-- Footer -->
