@@ -36,6 +36,9 @@ body {
   font-weight: bold;
 }
 
+
+
+
 .bg {
   background-color: #e9e9e961; !important;
 }
@@ -98,10 +101,20 @@ body {
     height: 40px;
   }
   
-    .hero-section {
-        display: block;
-        text-align: center;
-    }
+  .hero-section {
+      display: block;
+      text-align: center;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .play-button {
+    position: absolute;
+    top: 60%;
+    right: 3%;
+    transform: translate(-140%, -50%);
+  }
 }
 
 @media (max-width: 992px) {

@@ -100,12 +100,18 @@ body {
 @media (max-width: 768px) {
     .container{
         overflow-x: hidden;
+        position: relative;
+        text-align: center;
     }
-    .btnimg {
-        width: 30%;
+    .container .btnimg {
+        width: 20%;
         position: absolute;
-        bottom: 50px;
-        left: 1px;
+        bottom: 5px;
+        left: 8px;
+    }
+    .navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
     }
     
 }
@@ -213,6 +219,8 @@ body {
 .btn-donate:hover {
     background-color: #5a32a3;
 }
+
+
 
 /* section 4 */
 
@@ -365,6 +373,8 @@ body {
     width: 60px;
     height: 40px;
   }
+
+
 }
 
 @media (max-width: 767px) {
